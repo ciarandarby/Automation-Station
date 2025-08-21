@@ -4,6 +4,9 @@ Notion brought out their own amazing calendar app that syncs with Google Calenda
 As a Notion geek, I had to have my events automatically display in some of my pages.
 For some reason, their calendar app cannot integrate linked calendars to your Notion databases; enter this script.
 
+This is FREE, there are many services out there that charge subscriptions for something this simple and do not work as well.
+Without relying on third-party apps, your data is safe and not exposed outside of your own Google and Notion accounts.
+
 To do this is quite simple, first you need an integration token from Notion. So, just create a free private integration:
 https://developers.notion.com/docs/create-a-notion-integration
 
@@ -37,6 +40,7 @@ That's all! The code has some additional cool features:
 -A fallback for overriding 'ForceResyncAllEvents. This is great for when you delete in Notion and want a fresh sync. If you delete items in the database, it will still register them
 when in trash which is where this comes in to start fresh without having to manually delete them one by one from trash.
 -Does 7 days in advance - this is a good middleground, too long might timeout the script execution.
+-It's free
 
 */
 
