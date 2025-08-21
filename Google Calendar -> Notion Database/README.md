@@ -12,7 +12,22 @@ Part 1: Notion Setup
 To do this is quite simple, first you need an integration token from Notion. So, just create a free private integration:
 https://developers.notion.com/docs/create-a-notion-integration
 
-Then make a database with a calendar view, ensure it is marked as accessible by the integration in the access tab within the integration's page. Using your browser, go to the database and copy the database ID from the URL - That's pretty much it from the Notion side of things. Pretty simple right?
+Then make a database with a calendar view, ensure it is marked as accessible by the integration in the access tab within the integration's page. 
+
+The database must have these properties, the exact titles are required for the script to work:
+- Name (type: Title)
+- Date (type: Date) 
+- GCAL ID (type: Text)
+- Status (type: Text)
+- Description (type: Text)
+- Location (type: Text)
+- Event Link (type: URL)
+
+If the properties are not inputted within the Notion UI calendar view, the API server will return errors and the script will fail, we need therse to show all of the
+event info. I purposly did not add in logic to check this as we'll use console logs for error debugging as it's the only real way log background execution failures in app scripts
+adding dedicated function would be redundant here.
+
+Using your browser, go to the database and copy the database ID from the URL - That's pretty much it from the Notion side of things. Pretty simple right?
 
 Part 2: Google Apps Script Setup
 
