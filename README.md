@@ -2,7 +2,7 @@
 
 *Random code for random people. A collection of small projects I use regularly to automate and calculate things.*
 Usually centered around my own interests for automating things, replacing paid versions of services like Zapier to bespoke programs that run for free, Localization Engineering, Artificial Intelegence, creative systems and platform integrations.
-Keeping within the theme of creating free alternitives, the code is usually hosted on thins like Google App Scripts, ran locally, Google CoLab or Github Actions.
+Keeping within the theme of creating free alternitives, the code is usually hosted on services like Google App Scripts, ran locally, Google CoLab or Github Actions.
 
 ## What's Inside
 
