@@ -59,6 +59,6 @@ A free, secure, and self-hosted script to sync your Google Calendar events direc
     Status: **60%**
 * ** A new and fully equipped Translation Management System focused on modern frameworks like React and FastAPI, designed with Shadcn components, easy AI integrations supporting API for Gemini, OpenAI, Claude, and DeepSeek**
   * I will not be sharing the full source code for this as it will be a private project. However, I will open-source parts of the backend.
-  * This will compete with old, clunky services we deal with today, focusing on UX, cost saving, and a DLC plug-in and play system (no need to buy extras for integrating external systems)
+  * This will compete with old, clunky services we deal with today, focusing on UX, cost saving, and a DLC included, plug-in and play system (no need to buy extras for integrating external systems)
   * Think of it like if Notion were a Translation Management System
     Status: **70%**
