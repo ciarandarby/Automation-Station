@@ -1,6 +1,8 @@
 # Code-Scrapbook
 
 *Random code for random people. A collection of small projects I use regularly to automate and calculate things.*
+Usually centered around my own interests for automating things, replacing paid versions of services like Zapier to bespoke programs that run for free, Localization Engineering, Artificial Intelegence, creative systems and platform integrations.
+Keeping within the theme of creating free alternitives, the code is usually hosted on thins like Google App Scripts, ran locally, Google CoLab or Github Actions.
 
 ## What's Inside
 
@@ -45,3 +47,18 @@ A free, secure, and self-hosted script to sync your Google Calendar events direc
     </details>
 
 * **[HTML File Difference Generator](./HTML%20File%20Difference%20Generator/)**: A simple Python utility to visually compare HTML files in two different folders, perfect for tracking changes.
+
+
+## Currently Working On
+
+* ** Interactive Translation Interface using LLM Integration with Custom Context Modeling**
+    Status: **Not Started**
+* ** A new Translation Memory hosting and fetching Architecture using Bianery Trees instead of traditional table/TMX with FastAPI enabled for rapid retreival**
+    Status: **25%**
+* ** iOS & MacOS Apps (exteding to Linux) to run local open-source LLMs, accessing them from anywhere**
+    Status: **60%**
+* ** A new and fully equipped Translation Management System focused on modern frameworks like React and FastAPI, designed with Shadcn components, easy AI integrations supporting API for Gemini, OpenAI, Claude, and DeepSeek**
+  * I will not be sharing the full source code for this as it will be a private project. However, I will open-source parts of the backend.
+  * This will compete with old, clunky services we deal with today, focusing on UX, cost saving, and a DLC plug-in and play system (no need to buy extras for integrating external systems)
+  * Think of it like if Notion were a Translation Management System
+    Status: **70%**
